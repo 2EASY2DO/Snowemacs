@@ -10,9 +10,7 @@
 (menu-bar-mode -1)
 ;; Activate visible-bell
 (setq visible-bell t)
-
 (set-face-attribute 'default nil :font "Fira Code Retina" :height 150)
-
 (load-theme 'tango-dark)
 ;; Global keybinds
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
@@ -54,12 +52,11 @@
 (use-package company
   :after lsp-mode
   :hook (lsp-mode . company-mode))
-
+;; Git using magit
 (use-package magit
   :commands (magit-status magit-get-current-branch)
   :custom
   (magit-display-buffer-function #'magit-display-buffer-same-window-except-diff-v1))
-
 ;; UI and theming
 (use-package doom-modeline
   :ensure t
