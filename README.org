@@ -1,7 +1,17 @@
 #+title: Snowemacs
 
-** Functions To Run
+** To-do Stuff
 
-This package requires the fonts included with all-the-icons to be installed. Run *~M-x all-the-icons-install-fonts to do so.~*
+*** TODO Convert emacs config to org mode
+
+** Things to install before using correctly
+
+*** Fonts:
+
+*Fira Code*
+
+*All-the-icons-fonts*
+
+Run *M-x all-the-icons-install-fonts to install.*
 
 ** Packages Installed
